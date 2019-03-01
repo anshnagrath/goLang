@@ -17,4 +17,11 @@ fmt.Println(x)
 for k,v:=range x.favfood{
 	fmt.Println(k,v)
 }
+m:=map[string]person{
+	x.last:x,
+}
+fmt.Println(m)
+for _,v:=range m{
+	fmt.Println(v)
+	}
 }
