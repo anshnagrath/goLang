@@ -1,1 +1,3 @@
-module "awesomeProject"
+module awesomeProject
+
+go 1.12
